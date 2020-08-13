@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Exposition virtuelle</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/custom.css" id="theme">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/css_perso.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+<body>
+
+	<!-- Début des slides-->
+	<div class="reveal">
+		<div class="slides">
+			<!-- Slide 1-->
+			<section class="mainFeed">
+				<div class="container-fluid">
+					<h2>Explication du concept de l'exposition</h2>
+					<p>Cette exposition comporte 6 thèmes différents et complémentaires qui vont permettre de découvrir la place qu'occupe déjà la biologie dans l'espace et celle qu'elle pourrait occuper dans les années à venir.</p>
+					<div>
+						<p>Pour passer d'un thème à un autre, faites défiler en utilisant la flèche
+						</p>
+						<!-- Curseur vers la droite-->
+						<aside class="controls" style="display: block; position: relative; top:1em; bottom: auto; right: auto;">
+							<button class="navigate-right enabled" style="pointer-events: none;" aria-label="#">
+								<div class="controls-arrow"></div>
+							</button>
+						</aside>
+					</div>
+					<div>
+						<p>À la fin de chaque thème, il vous est proposé d'aller plus loin, en vous présentant des "fun facts" et des quiz sur le thème considéré.<br />
+						Pour y accéder, appuyer sur
+						</p>
+						<!-- Curseur vers le bas-->
+						<aside class="controls" style="display: block; position: relative; width:41em; top:1em; left:auto; bottom: auto; right: auto;">
+							<button class="navigate-right enabled" style="transform: rotate(90deg); pointer-events: none;" aria-label="#">
+								<div class="controls-arrow"></div>
+							</button>
+						</aside>
+					</div>
+					<div>
+						<p>Vous pourrez ensuite revenir au défilement des thèmes en cliquant sur
+						</p>
+						<!-- Dernier curseur vers la droite-->
+						<aside class="controls" style="display: block; position: relative; width:3.5em; top:5.5em; margin-bottom: 3.5em;left:auto; bottom: auto; right: auto;">
+							<button class="navigate-right enabled" style="pointer-events: none;" aria-label="#">
+								<div class="controls-arrow"></div>
+							</button>
+						</aside>
+					</div>
+					<p class="small_text">NB: les logos <img src="img/IGEMINI_couleur.png" width=40px alt=""></img> indiquent que vous suivez le fil principal de l'exposition.</p>
+				</div>
+			</section>
+			<!-- Slide 2-->
+			<section class="mainFeed">
+				<div class="container-fluid">
+					<h2>Introduction</h2>
+				</div>
+			</section>
+			<!-- Slide 3-->
+			<section class="mainFeed">
+				<div class="container-fluid">
+					<h2>Thème 1 : Les microbes dans l'espace</h2>
+				</div>
+			</section>
+			<section class="mainFeed">
+					<div class="container-fluid">
+						<h3>Thème 1 : Les microbes dans l'espace</h3>
+						<img class="mt-n3 mb-n5 justify-self-center" src="img/astro_coculture.png" height="500vh" alt="" />
+						<div class="r-stack rounded-lg vertical_padding px-3 bg-lightyellow">
+							<p class="fragment fade-out small_text" data-fragment-index="0">Découvrir l’espace et ses secrets est un <strong>défi</strong> pour l’homme depuis des centaines d’années. À chacune de ses incursions dans l’espace, l’homme transporte avec lui une <strong>large diversité de microorganismes</strong> et ce, malgré les efforts déployés pour éviter ce phénomène.<br />Nombre de ces bactéries proviennent même directement de notre <strong>corps</strong>.
+							</p>
+							<p class="fragment current-visible small_text" data-fragment-index="0">Certains microorganismes déjà sur terre sont <strong>capables de résister à des températures et des pressions extrêmes dans des conditions similaires aux conditions spatiales</strong>. C’est également ce qu’a prouvé une expérience de 18 mois dans l’espace menée à bord de l’ISS en 2018.
+							</p>
+							<p class="fragment small_text">Mais... Avant tout...
+							</p>
+						</div>
+					</div>
+			</section>
+		</div>
+	</div>
+	<script src="dist/reveal.js"></script>
+	<script src="js/config.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+	// More info about initialization & config:
+	// - https://revealjs.com/initialization/
+	// - https://revealjs.com/config/
+	Reveal.initialize({
+		hash: true,
+
+		// Learn about plugins: https://revealjs.com/plugins/
+		plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+	});
+	</script>
+</body>
+</html>

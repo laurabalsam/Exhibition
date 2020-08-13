@@ -1,0 +1,45 @@
+.reveal h2{
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #31538F;
+}
+.reveal h3{
+  font-size: 1em;
+  font-weight: bold;
+  color: #31538F;
+}
+.reveal p{
+  font-size: 0.75em;
+  text-align: left;
+}
+
+div.slide-background.mainFeed{
+  background-image: url("../img/IGEMINI_couleur.png");
+  background-repeat: no-repeat;
+  background-size: 95%;
+  position: absolute;
+  right:10px;
+  left: auto;
+  top: 10px;
+  bottom: auto;
+  width: 10%;
+  height: inherit;
+}
+
+.bg-lightyellow{
+  background-color: #F5E9C3;
+}
+
+.vertical_padding{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.reveal .small_text{
+  font-size: .5em;
+}
+
+.align-item{
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
