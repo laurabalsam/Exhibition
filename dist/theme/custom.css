@@ -14,7 +14,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --background-color: #EFEFEF;
+  --background-color: #F3F2EF;
   --main-font: Lato, sans-serif;
   --main-font-size: 40px;
   --main-color: #000;
@@ -39,8 +39,8 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --selection-color: #fff; }
 
 .reveal-viewport {
-  background: #EFEFEF;
-  background-color: #EFEFEF; }
+  background: #F3F2EF;
+  background-color: #F3F2EF; }
 
 .reveal {
   font-family: "Lato", sans-serif;
@@ -285,4 +285,4 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #EFEFEF; } }
+    background-color: #F3F2EF; } }
