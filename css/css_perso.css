@@ -6,11 +6,13 @@
 .reveal h3{
   font-size: 1em;
   font-weight: bold;
-  color: #31538F;
 }
 .reveal p{
   font-size: 0.75em;
   text-align: left;
+}
+.reveal .text-blue {
+  color: #31538F;
 }
 
 div.slide-background.mainFeed{
@@ -28,6 +30,10 @@ div.slide-background.mainFeed{
 
 .bg-lightyellow{
   background-color: #F5E9C3;
+}
+
+.bg-lightblue{
+  background-color: #E2E5EE;
 }
 
 .vertical_padding{
