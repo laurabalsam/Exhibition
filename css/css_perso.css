@@ -36,6 +36,17 @@ div.slide-background.mainFeed{
   background-color: #E2E5EE;
 }
 
+div.slide-background.bg-lightpurple{
+    background-color: #ead1dc
+}
+
+div.slide-background.bg-darkyellow{
+    background-color: #edd690
+}
+
+div.slide-background.bg-darkpurple{
+    background-color: #d9d2e9ff
+}
 .vertical_padding{
   padding-top: 2px;
   padding-bottom: 2px;
@@ -45,7 +56,158 @@ div.slide-background.mainFeed{
   font-size: .5em;
 }
 
+.reveal .medium_text{
+  font-size: .7em;
+}
+
 .align-item{
   -ms-flex-align: center !important;
   align-items: center !important;
+}
+
+.postopleft{
+ left: 0; /* new */
+ top: 0; /* new */
+ position: absolute; /* new */
+}
+.titre-savoirplus{
+ margin-left:250px;
+ text-align:left;
+}
+
+.texte-savoirplus{
+ margin-top:80px;
+}
+
+.titre-saviezvous{
+  position: absolute;
+  top: -250px;
+  left: 350px;
+  border: 3px solid #edd690;
+  background: #edd690;
+  text-justify;
+  font-family: Arial Narrow;
+}
+
+.texte-saviezvous{
+ font-family: Arial Narrow;
+ font-size: 86px;
+}
+
+div.slide-background.bordure {
+ border: 15px solid #edd690;
+}
+
+.reveal .slides section .fragment.highlight-green.visible {
+		color: #429c27;
+}
+
+div.slide-background.bgastro1 {
+  background-image: url('../img/astro1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div.slide-background.bgastro2 {
+  background-image: url('../img/astro2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.posastro{
+  margin-top: 15rem;
+  margin-left: -15rem;
+  border: 3px solid #E2E5EE;
+  border-radius: 25px;
+  background: #E2E5EE;
+  padding: 20px;
+  width: 500px;
+  height: 400px;
+}
+
+.posastro2{
+  margin-top: 15rem;
+  margin-left: -15rem;
+  border: 3px solid #E2E5EE;
+  border-radius: 25px;
+  background: #E2E5EE;
+  padding: 20px;
+  width: 500px;
+  height: 220px;
+}
+
+.posimgdna{
+  position: relative;
+  left: 450px;
+  bottom: 0px;
+}
+
+.poscosmos{
+  position: relative;
+  left: 450px;
+}
+
+.poscosmos2{
+  position: relative;
+  right: 400px;
+}
+
+.postextcosmos{
+  position: absolute;
+  bottom: 100px;
+  left: 0px;
+}
+
+.postextcosmos2{
+  position: absolute;
+  bottom: 150px;
+  right: 0px;
+  width: 500px;
+}
+
+.posbulletscosmos{
+  position: relative;
+  bottom: 100px;
+  left: 0px;
+}
+
+.poscutpaste{
+    position: absolute;
+    top: 50px;
+  left: 100px;
+}
+
+.alignleft{
+ text-align: left
+}
+
+.titre-saviezvous2{
+  position: absolute;
+  top: -110px;
+  left: 350px;
+  border: 3px solid #edd690;
+  background: #edd690;
+  text-justify;
+  font-family: Arial Narrow;
+}
+
+.posphone{
+  position: relative;
+  right: 450px;
+  bottom: 0px;
+}
+
+.postextphone{
+  position: absolute;
+  top: 120px;
+  right: 0px;
+  width: 500px;
+}
+
+.poseco{
+  position: relative;
+  bottom: 200px;
+  left: 200px;
 }
